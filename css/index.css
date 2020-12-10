@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+/***** Globals *****/
+
+
+/* Header font and margin */
+h1 {
+  font-family: 'Langar',cursive;
+  font-weight: 800;
+  font-size: 68px;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+/* Body font */
+body {
+  font-family: 'Texturina', serif;
+}
+
+
+ul {
+  padding: 0;
+}
+
+#filter-label {
+  text-align: right;
+  margin-top: 9.8px;
+  margin-bottom: 9.8px;
+  margin-right: 5px;
+  float: right;
+}
+
+.form-container {
+  display: block;
+  text-align: center;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new-item-li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.error-message-container {
+  color: darkred;
+  font-weight: bold;
+  text-align: center;
+}
+
+.controls {
+  text-align: left;
+}
+
+.controls button {
+  margin-bottom: 1.5em;
+}
+
+.add-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.edit-btn {
+  margin-left: 10px;
+  float: right;
+}
+
+
+.bookmark-container {
+  border-top: 3px solid beige;
+  padding-top: 1em;
+  margin-top: 2em;
+}
+
+select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.header-button {
+  width: 100%;
+  height: 100%;
+}
+
+.header-button:hover {
+  border-color: #b9b9b9;
+  background-color: #b9b9b9;
+}
+
+
+.bookmark-header {
+  background-color: beige;
+  border: 2px solid #000000;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bookmark-item {
+  margin-top: 12px;
+  list-style-type: none;
+}
+
+.bookmark-body {
+  border: 2px solid #000;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.bookmark-body p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.bookmark-button {
+  float: right;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.add-btn-container {
+  text-align: center;
+}
+
+legend {
+  color: beige;
+}
+
+fieldset {
+  border: 2px solid beige;
+}
+
+input[type='text'],
+input[type='url'],
+textarea,
+select {
+  box-sizing: border-box;
+  height: 38px;
+  margin-bottom: 0.5em;
+  text-align: center;
+  width: 184.417px;
+}
+
+input[type='text'],
+input[type='url'],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+textarea {
+  min-height: 68px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+input[type='text']:focus,
+input[type='url']:focus,
+textarea:focus,
+select:focus {
+  border: 3px beige;
+  outline: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.filter-control {
+  float: right;
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid beige;
+  box-sizing: border-box;
+  color: #555;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 38px;
+  letter-spacing: 0.05rem;
+  line-height: 34px;
+  padding: 0 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: rgb(46, 45, 45);
+  border-color: #858383;
+  outline: 0;
+}
+
+
+@media (max-width: 460px) {
+  #filter-label {
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  select {
+    float: none;
+  }
+
+  .filter-control {
+    float: none;
+  }
+
+  .controls {
+    text-align: center;
+  }
+
+  .edit-btn {
+    float: none;
+  }
+
+  .bookmark-button {
+    float: none;
+  }
+}
