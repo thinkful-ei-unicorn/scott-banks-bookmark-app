@@ -1,5 +1,4 @@
-# Thinkfull Bookmark App #
-[:books:](https://ebonrul.github.io/HelloWorld/bookmark.html)
+# Thinkfull Bookmark App [:books:](https://ebonrul.github.io/HelloWorld/bookmark.html)#
 As a user:
 
 I can add bookmarks to my bookmark list. Bookmarks contain:
